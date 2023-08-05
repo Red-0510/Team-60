@@ -1,0 +1,7 @@
+Captures the visible area of the currently active tab in the specified window. In order to call this
+method, the extension must have either the <all_urls> permission or the activeTab permission. In
+addition to sites that extensions can normally access, this method allows extensions to capture
+
+sensitive sites that are otherwise restricted, including chrome:-scheme pages, other extensions’
+pages, and data: URLs. These sensitive sites can only be captured with the activeTab permission.
+File URLs may be captured only if the extension has been granted file access.

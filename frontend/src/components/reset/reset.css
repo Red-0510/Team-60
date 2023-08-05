@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  html, body{
+    background: #8be6e6;
+  }
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  button{
+    border: 0;
+    outline: 0;
+    padding: 0;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    background: #070f42;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 12px 36px;
+  }
+  .btn:active{
+    background: #7f8ff4;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+  }
+  .inside{
+    margin-top: 12px;
+    margin-left: -90px;
+    position: absolute;
+  }
+  input[type="email"]{
+    width: 360px;
+    color: #000;
+    font-size: 14px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border: 0;
+    outline: 0;
+    padding: 22px 18px;
+    font-family: sans-serif;
+  }
